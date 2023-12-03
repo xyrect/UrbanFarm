@@ -3,7 +3,8 @@ import Navbar from '../components/Navbar'
 import TextHero from '../components/TextHero'
 import CardTanaman from '../components/CardTanaman'
 import Batas from '../components/Batas'
-import ArtikelList from '../components/ArtikelList'
+import ArtikelCard from '../components/ArtikelCard'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
             <TextHero />
             <CardTanaman />
             <Batas />
-            <ArtikelList />
+            <ArtikelCard />
+            <Footer />
            
         </div>
     </div>

@@ -15,14 +15,6 @@ const FarmPage = () => {
       imageSrc: './public/beranda/card h3.png', 
       description: 'Menanam Buncis dengan Metode Polybag.',
     },
-    {
-      imageSrc: './public/beranda/card h4.png', 
-      description: 'Menanam Kacang Panjang dengan Metode Hidroponik.',
-    },
-    {
-      imageSrc: './public/beranda/card h4.png', 
-      description: 'Menanam Kacang Panjang dengan Metode Hidroponik.',
-    },
    
   ];
   const containerStyle = {

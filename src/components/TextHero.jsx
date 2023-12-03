@@ -44,10 +44,11 @@ function Hero() {
 
       
       <div style={textContainerStyle}>
-        <h1 style={{ fontSize: '65px',color:"#F7C35F" }}>Your Text Here<img src="./public/beranda/daun.png" /></h1>
-        <p style={{ fontSize: '65px' }}>Your additional text goes here.</p>
+        <h1 style={{ fontSize: '65px',color:"#F7C35F" }}>Selamat Datang<img src="./public/beranda/daun.png" /></h1>
+        <p style={{ fontSize: '65px' }}>Di Website Kami</p>
+        <p style={{ fontSize: '20px' }}>Memberikan panduan berkebun dilahan yang minim <br/>dengan Metode Hidroponik dan Polybag</p>
         <div className='d-flex gap-5'>
-          <Button  style={buttonStyle}>Your Button</Button> 
+          <Button  style={buttonStyle}>Mulai</Button> 
           <a href="/">
             <img src='./public/beranda/playstore.png' alt="Play Store" />
           </a>
