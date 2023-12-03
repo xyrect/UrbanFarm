@@ -1,13 +1,16 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faWhatsapp, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-// import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faFacebook, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import Container from 'react-bootstrap/Container';
 
 function Footer() {
     return (
-        <CardGroup style={{ marginTop: '2rem', border: '0' }}>
+        <Container fluid="md-0">
+        <CardGroup style={{ marginTop: '2rem', border: '0'}}>
             <Card style={{ backgroundColor: '#334B35', alignItems: 'center', paddingTop: '1rem', border: '0' }}>
                 <Card.Body>
                     <img
@@ -32,21 +35,23 @@ function Footer() {
             <Card style={{ backgroundColor: '#334B35', alignItems: 'center', paddingTop: '1rem', border: '0' }}>
                 <Card.Body>
                     <Card.Title style={{ color: '#fff' }}>Contact</Card.Title>
-                    {/* <div>
-                        <FontAwesomeIcon icon={faEnvelope} style={{ color: "#ffffff" }} />
-                        <FontAwesomeIcon icon={faPhone} style={{ color: "#ffffff", marginLeft: '5px' }} />
-                        <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff", marginLeft: '5px' }} />
-                    </div> */}
+                    <div>
+                        <FontAwesomeIcon icon={faEnvelope} style={{ color: "#ffffff", marginLeft: '5px' }}/>
+                        <FontAwesomeIcon icon={faPhone} style={{ color: "#ffffff", marginLeft: '5px' }}/>
+                        <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff", marginLeft: '5px' }}/>
+                    </div>
+                    
 
                     <Card.Title style={{ color: '#fff', marginTop: '1rem' }}>Follow Us</Card.Title>
-                    {/* <div>
+                    <div>
                         <FontAwesomeIcon icon={faFacebook} style={{ color: "#ffffff", marginLeft: '5px' }} />
                         <FontAwesomeIcon icon={faInstagram} style={{ color: "#ffffff", marginLeft: '5px' }} />
                         <FontAwesomeIcon icon={faYoutube} style={{ color: "#ffffff", marginLeft: '5px' }} />
-                    </div> */}
+                    </div>
                 </Card.Body>
             </Card>
         </CardGroup>
+        </Container>
     );
 }
 

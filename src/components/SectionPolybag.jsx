@@ -38,7 +38,7 @@ function SectionPolybag() {
       </div>
 
       <div style={heroright}>
-        <img src="./public/panduan/image2.1.png" alt="Urban Farming" style={imagestyle} />
+        <img src="./public/panduan/image3.1.png" alt="Urban Farming" style={imagestyle} />
       </div>
     </div>
   );
