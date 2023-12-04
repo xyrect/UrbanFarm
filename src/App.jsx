@@ -11,6 +11,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/tentangkami" element={<TentangKami/>} />
         <Route path="/panduan" element={<Panduan/>} />
         <Route path="/artikel" element={<Artikel/>} />
       </Routes>

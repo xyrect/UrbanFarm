@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar'
 import CardBar from '../components/Cardbar'
 
 
-const Home = () => {
+const TentangKami = () => {
     return (
       <div>
         <Navbar />
@@ -22,4 +22,4 @@ const Home = () => {
   )
 }
 
-export default Home  
+export default TentangKami  
