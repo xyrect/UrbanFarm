@@ -7,8 +7,7 @@ function CardBar() {
   <img src="./public/Tentang Kami/bg.png" classname="card-img" ></img>
   <div classname="card-img-overlay">
     <div classname="text" style={{marginTop: '-500px', marginLeft:'100px'}}> 
-    <h4 classname="card-title"  style={{marginLeft:'28rem'}}><img src="./public/Tentang Kami/daun.png"  style={{width: '42px'}} classname="position-absolute top10 start40 translate-middle-x"></img></h4>
-    <h1 classname="card-title" style={{color: '#F7C35F', fontSize: '65px'}}><b>Siap membantu</b></h1>
+    <h1 classname="card-title" style={{color: '#F7C35F', fontSize: '65px'}}><b>Siap membantu <img src="./public/Tentang Kami/daun.png" classname="position-absolute top10 start40 translate-middle-x"></img></b></h1>
     <h1 classname="card-title"style={{ color: '#ffff' , fontSize:'65px'}}><b>Anda dalam berkebun</b></h1>
     <p classname="card-text" style={{ color: '#ffff' , fontSize:'20px'}}>Memberikan panduan berkebun dilahan yang
     <br></br>
