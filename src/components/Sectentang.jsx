@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Sectentang() {
+function SecTentang() {
   return (
 
 <section class="tentang" style={{marginTop:'15rem'}}>
@@ -11,4 +11,4 @@ function Sectentang() {
 )
 }
 
-export default Sectentang
+export default SecTentang

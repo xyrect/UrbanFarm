@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Secweb() {
+function SecWeb() {
   return (
 
 
@@ -22,4 +22,4 @@ function Secweb() {
 )
 }
 
-export default Secweb
+export default SecWeb

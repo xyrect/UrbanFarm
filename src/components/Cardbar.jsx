@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Cardbar() {
+function CardBar() {
   return (
     <div>
       <div classname="card text-bg-dark">
@@ -20,4 +20,4 @@ function Cardbar() {
   )
 }
 
-export default Cardbar
+export default CardBar

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Secmobile() {
+function SecMobile() {
   return (
     
     <div class="container">
@@ -22,4 +22,4 @@ function Secmobile() {
 )
 }
 
-export default Secmobile
+export default SecMobile
