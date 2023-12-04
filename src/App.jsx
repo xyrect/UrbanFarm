@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route ,Routes} from 'react-router-dom'
 import Home from './pages/Home'
 import Panduan from './pages/Panduan'
 import Artikel from './pages/Artikel'
+import TentangKami from './pages/TentangKami'
 
 
 const App = () => {
@@ -13,7 +14,7 @@ const App = () => {
         <Route path="/panduan" element={<Panduan/>} />
         <Route path="/artikel" element={<Artikel/>} />
       </Routes>
-  </Router>
+    </Router>
   )
 }
 
