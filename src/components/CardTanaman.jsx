@@ -15,6 +15,10 @@ const FarmPage = () => {
       imageSrc: './public/beranda/card h3.png', 
       description: 'Menanam Buncis dengan Metode Polybag.',
     },
+    {
+      imageSrc: './public/panduan/card p3.png', 
+      description: 'Menanam Tomat dengan Metode Polybag.',
+    },
    
   ];
   const containerStyle = {

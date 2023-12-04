@@ -2,8 +2,8 @@ import React from 'react';
 
 const Garis = () => {
   const garisStyle = {
-    width: '90%', 
-    border: "3px solid",
+    width: '95%', 
+    border: "1px solid",
     color: "#000",
     borderRadius: "5px",
     margin: 'auto',

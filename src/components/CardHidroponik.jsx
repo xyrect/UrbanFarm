@@ -24,9 +24,9 @@ const FarmPage = () => {
     },
   ];
 
-  const containerStyle = {
-    textAlign: 'center',
-  };
+  // const containerStyle = {
+  //   textAlign: 'center',
+  // };
 
   const handleCardClick = (title) => {
     console.log(`Card clicked: ${title}`);

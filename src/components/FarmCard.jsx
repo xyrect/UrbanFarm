@@ -3,8 +3,8 @@ import Card from 'react-bootstrap/Card';
 
 const FarmCard = ({ title, imageSrc, description}) => {
   const cardStyle = {
-    width: '20rem',
-    margin: '2.5rem', 
+    width: '17rem',
+    margin: '1rem', 
     backgroundColor: '#334B35',
     border: '0',
 
