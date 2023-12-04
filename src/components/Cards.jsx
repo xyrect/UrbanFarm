@@ -1,5 +1,5 @@
 import React from 'react';
-import cards from '../components/cards.css';
+import '../components/cards.css';
 import Container from 'react-bootstrap/Container';
 
 function Cards() {
