@@ -12,10 +12,10 @@ function SecMobile() {
           untuk ruang terbatas (Urban Farming). Dilengkapi dengan fitur pengingat otomatis agar
           kualitas tanaman dapat dijaga dengan baik serta akses langsung ke marketplace untuk alat,
           bahan dan  bibit berkebun sehingga menjadikan berkebun sebagai bagian dari gaya hidup yang berkelanjutan</p>
-          <img src="src/assets/Gplay.png" style={{marginTop: '110px' , marginLeft:'100px'}}></img>
+          <img src="./public/Tentang Kami/Gplay.png" style={{marginTop: '110px' , marginLeft:'100px'}}></img>
         </div>
         <div class="col">
-          <img src="src/assets/mokup mobile.png"  class="img-fluid float-right" alt="gambar"></img><source />
+          <img src="./public/Tentang Kami/mokup mobile.png"  class="img-fluid float-right" alt="gambar"></img><source />
         </div>
       </div>
       </div>
