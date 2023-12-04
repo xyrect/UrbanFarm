@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Panduan from './pages/Panduan'
 import Artikel from './pages/Artikel'
 import TentangKami from './pages/TentangKami'
+import Detail from './pages/Detail'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/tentangkami" element={<TentangKami/>} />
         <Route path="/panduan" element={<Panduan/>} />
         <Route path="/artikel" element={<Artikel/>} />
+        <Route path="/bawangmerah" element={<Detail/>} />
       </Routes>
     </Router>
   )
