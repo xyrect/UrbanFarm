@@ -4,6 +4,7 @@ import SecWeb from '../components/Secweb'
 import SecMobile from '../components/Secmobile'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import CardBar from '../components/Cardbar'
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <div>
         <Navbar />
         <div>
+        <CardBar />
         <SecTentang />
         <SecWeb />
         <SecMobile />
