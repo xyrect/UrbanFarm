@@ -2,7 +2,7 @@ import React from 'react'
 import Home from './pages/Home'
 import Panduan from './pages/Panduan'
 import Artikel from './pages/Artikel'
-import Artikel from './pages/TentangKami'
+import TentangKami from './pages/TentangKami'
 
 
 const App = () => {
