@@ -5,6 +5,7 @@ import CardTanaman from '../components/CardTanaman'
 import Batas from '../components/Batas'
 import ArtikelCard from '../components/ArtikelCard'
 import Footer from '../components/Footer'
+import SecUrban from '../components/SecUrban'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <Navbar />
         <div>
             <TextHero />
+            <SecUrban />
             <CardTanaman />
             <Batas />
             <ArtikelCard />

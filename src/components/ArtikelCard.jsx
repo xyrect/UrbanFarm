@@ -1,16 +1,19 @@
 import React from 'react';
 import Card from '../components/ArtikelList.css';
 
-const ArtikelCard = () => {
+function ArtikelCard  () {
+  const redirectArticle = () => {window.open = 'https://www.detik.com', '_blank'};
+  
  return (
   <div className="title2 main-container">
-  <h3 className="section-title" style={{textAlign:'center', margin:'20px'}}>Berita Terkini</h3>
+  <h3 className="section-title" style={{textAlign:'center', margin:'20px'}}>Temukan Berita Seputar Urban Farming </h3>
+  <h6 className="section-title" style={{textAlign:'center', margin:'20px'}}>Ingin Update berita terbaru seputar Urban Farming bisa anda dapatkan disini </h6>
   <div className="container">
   <div className="cards">
-  <div className="cards1">
+  <div className="cards1" onClick={redirectArticle}>
       <img src="./public/beranda/b1.png" alt="Card Image"></img>
       <div className="overlay">
-        <h6>Kamis, 09 November 2023</h6>
+        <h6> Kamis, 09 November 2023</h6>
         <p>Maksimalkan Lahan Rawa, BRI Dukung Pemberdayaan Urban Farming di Surabaya</p>
       </div>
     </div>

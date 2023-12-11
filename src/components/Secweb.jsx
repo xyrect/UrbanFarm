@@ -5,7 +5,7 @@ function SecWeb() {
 
 
 <div class="container">
-      <div class="row">
+      <div class="row" style={{marginTop:'100px'}}>
         <div class="col">
           <img src="./public/Tentang Kami/mokup.png" class='img-fluid float-left'></img>
         </div>

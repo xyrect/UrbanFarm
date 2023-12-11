@@ -28,7 +28,8 @@ const FarmPage = () => {
 
   return (
     <div style={{textAlign:'center'}}>
-      <h1 style={{marginBottom:"2rem"}}>Mau Menanam Apa Hari ini?</h1>
+      <h3 style={{marginBottom:"2rem"}}>Rekomendasi Tanaman</h3>
+      <h6 style={{marginBottom:"2rem"}}>Tentukan pilihan tanaman anda dan dapatkan informasi panduan tata cara menanamnya</h6>
       <div style={{ display: 'flex', flexWrap: 'wrap',justifyContent:'center', textAlign:'left'}}>
         {farms.map((farm, index) => (
           <FarmCard
