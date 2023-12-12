@@ -10,7 +10,7 @@ function ArtikelCard  () {
   <h6 className="section-title" style={{textAlign:'center', margin:'20px'}}>Ingin Update berita terbaru seputar Urban Farming bisa anda dapatkan disini </h6>
   <div className="container">
   <div className="cards">
-  <div className="cards1" onClick={redirectArticle}>
+  <div className="cards1" onClick={redirectArticle}  style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
       <img src="./public/beranda/b1.png" alt="Card Image"></img>
       <div className="overlay">
         <h6> Kamis, 09 November 2023</h6>
@@ -18,7 +18,7 @@ function ArtikelCard  () {
       </div>
     </div>
 
-    <div className="cards2">
+    <div className="cards2"  style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
       <img src="./public/beranda/b2.png" alt="Card Image"></img>
       <div className="overlay">
         <h6>Selasa, 13 Juni 2023</h6>
@@ -26,7 +26,7 @@ function ArtikelCard  () {
       </div>
     </div>
 
-    <div className="cards3">
+    <div className="cards3"  style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
       <img src="./public/beranda/b3.png" alt="Card Image"></img>
       <div className="overlay">
         <h6>Kamis, 09 Maret 2023</h6>

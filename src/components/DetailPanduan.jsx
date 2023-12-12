@@ -38,7 +38,7 @@ const DetailPanduan = () => {
                     <li>Persiapkan metode tanam</li>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col">
-                            <div className="card h-100">
+                            <div className="card h-100" style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <div className="no-urut">1</div>
                                 <img src="./public/detail/hp-step1.png" className="card-img-top" alt="step 1" />
                                 <div className="card-body">
@@ -49,7 +49,7 @@ const DetailPanduan = () => {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="card h-100">
+                            <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <div className="no-urut">2</div>
                                 <img src="./public/detail/hp-step2.png" className="card-img-top" alt="step 2" />
                                 <div className="card-body">
@@ -63,7 +63,7 @@ const DetailPanduan = () => {
                     <li>Proses penanaman bawang merah</li>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col">
-                            <div className="card h-100">
+                            <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <img src="./public/detail/hpt-step1.jpg" className="card-img-top" alt="step tanam 1" />
                                 <div className="no-urut">1</div>
                                 <div className="card-body">
@@ -74,7 +74,7 @@ const DetailPanduan = () => {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="card h-100">
+                            <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <img src="./public/detail/hpt-step2.png" className="card-img-top" alt="step tanam 2" />
                                 <div className="no-urut">2</div>
                                 <div className="card-body">
@@ -85,7 +85,7 @@ const DetailPanduan = () => {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="card h-100">
+                            <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <img src="./public/detail/hpt-step3.png" className="card-img-top" alt="step tanam 3" />
                                 <div className="no-urut">3</div>
                                 <div className="card-body">
@@ -96,7 +96,7 @@ const DetailPanduan = () => {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="card h-100">
+                            <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <img src="./public/detail/hpt-step4.png" className="card-img-top" alt="step tanam 4" />
                                 <div className="no-urut">4</div>
                                 <div className="card-body">
@@ -116,7 +116,7 @@ const DetailPanduan = () => {
                     <li>Hal-hal yang harus Anda perhatikan dalam perawatan bawang merah hidroponik </li>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col">
-                            <div className="card h-100">
+                            <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <div className="rawat-step"><i className="fa-solid fa-droplet" style={{ color: '#ffffff' }}></i> Pemberian Nutrisi</div>
                                 <img src="./public/detail/rawat1.png" className="card-img-top" alt="tips rawat" />
                                 <div className="card-body">
@@ -127,7 +127,7 @@ const DetailPanduan = () => {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="card h-100">
+                            <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <div className="rawat-step"><i className="fa-solid fa-flask" style={{ color: '#ffffff' }}></i> Pemupukan Susulan</div>
                                 <img src="./public/detail/rawat2.png" className="card-img-top" alt="tips rawat" />
                                 <div className="card-body">
@@ -138,7 +138,7 @@ const DetailPanduan = () => {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="card h-100">
+                            <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <div className="rawat-step"><i className="fa-solid fa-seedling" style={{ color: '#ffffff' }}></i> Panen</div>
                                 <img src="./public/detail/rawat3.png" className="card-img-top" alt="tips rawat" />
                                 <div className="card-body">
@@ -231,45 +231,45 @@ const DetailPanduan = () => {
                 <div className="container">
                     <div className="row g-5">
                         <div className="col-md-4">
-                            <div className="card" style={{ width: '100%', backgroundColor: '#334B35', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }}>
-                                <div className="card-body">
+                            <div className="card" style={{ width: '100%', backgroundColor: '#334B35', boxShadow: '0 10px 20px rgba(0, 0, 0, 0.1)' }}>
+                                <div className="card-body" style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                     <h4 className="card-title">Pipa</h4>
                                     <img className="card-img-top" src="./public/detail/alat1.png" alt="Pipa" />
                                     <hr />
-                                    <a href="#" className="btn btn-default">Beli online</a>
+                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-4">
                             <div className="card" style={{ width: '100%', backgroundColor: '#334B35' }}>
-                                <div className="card-body">
+                                <div className="card-body" style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                     <h4 className="card-title">Netpot</h4>
                                     <img className="card-img-top" src="./public/detail/alat2.png" alt="Netpot" />
                                     <hr />
-                                    <a href="#" className="btn btn-default">Beli online</a>
+                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-4">
                             <div className="card" style={{ width: '100%', backgroundColor: '#334B35' }}>
-                                <div className="card-body">
+                                <div className="card-body" style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                     <h4 className="card-title">Pupuk NPK</h4>
                                     <img className="card-img-top" src="./public/detail/bahan1.png" alt="Pupuk" />
                                     <hr />
-                                    <a href="#" className="btn btn-default">Beli online</a>
+                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-4">
                             <div className="card" style={{ width: '100%', backgroundColor: '#334B35' }}>
-                                <div className="card-body">
+                                <div className="card-body" style={{boxShadow:'0 6px 12px rgba(0, 0, 0, 0.1'}}>
                                     <h4 className="card-title">Sempurna daun</h4>
                                     <img className="card-img-top" src="./public/detail/bahan2.png" alt="daun" />
                                     <hr />
-                                    <a href="#" className="btn btn-default">Beli online</a>
+                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
