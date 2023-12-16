@@ -1,44 +1,34 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 
-
-function Artikelimage() {
-    const containerStyle = {
-        position: 'relative',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh',
-        margin: '3rem 0',
-      };
-    
-      const imageStyle = {
-        width: '100%',
-        maxWidth: '100%',
-      };
-    
-      const textContainerStyle = {
-        position: 'absolute',
-        textAlign: 'center',
-        marginLeft: '3rem',
-        marginBotton: '100rem',
-        color: '#fff', 
-      };
-    
-      return (
-        <Container fluid="md-0">
-        <div style={containerStyle}>
-          <Image src="./public/artikel/Background.jpg" fluid style={imageStyle} />
-          
-          <div style={textContainerStyle}>
-            <h1 style={{ fontSize: '40px', color:"#F7C35F" }}>Temukan Artikel - Artikel dan Berita - Berita</h1>
-            <p style={{ fontSize: '30px' }}>Menarik Seputar Urban Farming</p>
-            <p style={{ fontSize: '20px' }}>Jangan sampai terlewatkan beritanya</p>
+const HeroImage = () => {
+  return (
+    <div
+      lc-helper="background"
+      className="container-fluid py-5 mb-4 d-flex justify-content-center align-items-center" 
+      style={{
+        backgroundImage: "url('../public/artikel/Background.jpg')",
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        marginTop: '4.5rem',
+        height: '400px',
+      }}
+    >
+      <div
+        className="p-5 mb-4 lc-block col-xxl-12 col-lg- col-12 text-center" 
+      >
+        <div className="lc-block">
+          <div editable="rich">
+          <h4 className="fw-bolder display-3" style={{ color: '#F7C35F' }}>Temukan artikel dan berita menarik seputar </h4>
+            <h4 className="fw-bolder display-3" style={{ color: '#FFF' }}> Urban Farming</h4>
+            <p className="lead" style={{ fontSize: '30px',color: '#FFF' }}>
+              Memberikan panduan berkebun di lahan yang minim dengan metode Hidroponik dan Polybag
+            </p>
           </div>
         </div>
-        </Container>
-      );
-    }
+      </div>
+    </div>
+  );
+};
 
-export default Artikelimage;
+export default HeroImage;

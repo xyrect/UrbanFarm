@@ -12,14 +12,12 @@ const TentangKami = () => {
     return (
       <div>
         <Navbar />
-        <div>
         <CardBar />
         <SecTentang />
         <CarouselExample />
         <SecWeb />
         <SecMobile />
         <Footer />
-        </div>
      </div>
   )
 }

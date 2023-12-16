@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route ,Routes} from 'react-router-dom'
 import Home from './pages/Home'
 import Panduan from './pages/Panduan'
 import Artikel from './pages/Artikel'
-import TentangKami from './pages/TentangKami'
 import Detail from './pages/Detail'
+import TentangKami from './pages/TentangKami'
+import './App.css'
 
 
 const App = () => {

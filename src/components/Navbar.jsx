@@ -1,3 +1,4 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -13,7 +14,12 @@ function Navigasi() {
 
   return (
     <>
-      <Navbar data-bs-theme="dark" fixed="top" style={{ backgroundColor: '#334B35', fontSize: '1.3rem' }}>
+      <Navbar
+        data-bs-theme="dark"
+        fixed="top"
+        expand="md"
+        style={{ backgroundColor: '#334B35', fontSize: '1.3rem' }}
+      >
         <Container className="d-flex align-items-center">
           <Navbar.Brand as={NavLink} to="/" style={navbarFont}>
             <img
@@ -25,20 +31,23 @@ function Navigasi() {
             />
             <span className="ml-2"> UrbanFarm</span>
           </Navbar.Brand>
-          <Nav className="ml-auto" style={{ fontFamily: 'Gothic Century, sans-serif' }}>
-            <Nav.Link as={NavLink} to="/" className="nav-link" activeClassName="active">
-              Beranda
-            </Nav.Link>
-            <Nav.Link as={NavLink} to="/tentangkami" className="nav-link" activeClassName="active">
-              Tentang Kami
-            </Nav.Link>
-            <Nav.Link as={NavLink} to="/panduan" className="nav-link" activeClassName="active">
-              Panduan
-            </Nav.Link>
-            <Nav.Link as={NavLink} to="/artikel" className="nav-link" activeClassName="active">
-              Artikel
-            </Nav.Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="navbar-nav" />
+          <Navbar.Collapse id="navbar-nav" className="justify-content-end">
+            <Nav style={{ fontFamily: 'Gothic Century, sans-serif' }} className="ml-auto">
+              <Nav.Link as={NavLink} to="/" className="nav-link" activeClassName="active">
+                Beranda
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/tentangkami" className="nav-link" activeClassName="active">
+                Tentang Kami
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/panduan" className="nav-link" activeClassName="active">
+                Panduan
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/artikel" className="nav-link" activeClassName="active">
+                Artikel
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>

@@ -1,44 +1,43 @@
 import React from 'react';
 import '../components/cards.css';
-import Container from 'react-bootstrap/Container';
-import { Button } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
-function Cards() {
-    const buttonStyle = {
-        backgroundColor: '#F7C35F', 
-        height : '69px' , 
-        width:'200px', 
-        color: '#000', 
-        borderRadius: '8px', 
-        padding: '10px 20px', 
-        fontSize: '20px',  
-        border: 'none', 
-        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', 
-        cursor: 'pointer', 
-      };
+const buttonStyle = {
+  backgroundColor: '#F7C35F',
+  height: '69px',
+  width: '200px',
+  color: '#000',
+  borderRadius: '8px',
+  padding: '10px 20px',
+  fontSize: '20px',
+  border: 'none',
+  boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+  cursor: 'pointer',
+};
 
-    return (
-        <Container fluid="md">
-            <div class="judul">
-                <h4>Berita & Artikel</h4>
-                <h6>Berisi Berita dan Artikel terbaru terkait Urban Farming</h6>
-            </div>
-            <div class="container">
-                <div class="row" style={{marginBottom:'100px'}}>
-                    <div class="col">
-                        <img src="./public/artikel/page10.png" class='img-fluid float-left'style={{width:'480px'}}></img>
-                    </div>
-                    <div class="col" style={{ margintop: '50px'}}>
-                        <h3>291 Rumah Tangga di Riau Melakukan Urban Farming</h3>
-                        <p style={{ textAlign: 'justify' }}>Asep Riyadi juga menambahkan bahwa masyarakat perkotaan menyediakan produk pertanian sendiri pada lahan terbatas dengan berbagai cara.
-                        Yang sebagian besarnya menggunakan media tanam pot atau polybag, sehingga mudah dipindahkan pada lahan sempit (baik di dalam ruangan atau di atap rumah).
-                        sebagai bagian dari gaya hidup yang berkelanjutan</p>
-                        <h5>Selasa, 05 Desember 2023</h5>
-                        <Button  style={buttonStyle}>Read More</Button> 
-                    </div>
-                </div>
-            </div>
-            <div class="cards">
+const Cards = () => {
+  return (
+    <Container fluid="md">
+      <div className="judul">
+        <h3 style={{fontWeight:'bold'}}>Berita & Artikel</h3>
+        <h4>Berisi Berita dan Artikel terbaru terkait Urban Farming</h4>
+      </div>
+      <Row style={{ marginBottom: '100px' }}>
+        <Col xs={12} md={6}>
+          <img src="./public/artikel/page10.png" alt="article" className="img-fluid float-left" style={{ maxWidth: '100%' }} />
+        </Col>
+        <Col xs={12} md={6} style={{ marginTop: '50px' }}>
+          <h3>291 Rumah Tangga di Riau Melakukan Urban Farming</h3>
+          <p style={{ textAlign: 'justify' }}>
+            Asep Riyadi juga menambahkan bahwa masyarakat perkotaan menyediakan produk pertanian sendiri pada lahan terbatas dengan berbagai cara.
+            Yang sebagian besarnya menggunakan media tanam pot atau polybag, sehingga mudah dipindahkan pada lahan sempit (baik di dalam ruangan atau di atap rumah).
+            sebagai bagian dari gaya hidup yang berkelanjutan
+          </p>
+          <h5>Selasa, 05 Desember 2023</h5>
+          <Button style={buttonStyle}>Read More</Button>
+        </Col>
+      </Row>
+      <div class="cards">
                 <div class="cards1">
                     <img src="./public/artikel/page 1.jpg" alt="Card Image"></img>
                     <div class="overlay">
@@ -111,8 +110,8 @@ function Cards() {
                     </div>
                 </div>
             </div>
-        </Container>
-    );
+    </Container>
+  );
 }
 
 export default Cards;
