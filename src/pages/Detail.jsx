@@ -1,14 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import DetailPanduan from '../components/DetailPanduan'
+import Detailbaru from '../components/Detailbaru'
+import Bawangmerah from '../components/Bawangmerah'
 
 const Detail = () => {
   return (
     <div>
         <Navbar />
         <div>
-            <DetailPanduan />
+            <Detailbaru />
+            <Bawangmerah />
             <Footer />
            
         </div>
