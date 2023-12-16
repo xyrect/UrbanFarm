@@ -23,6 +23,9 @@ const HeroImage = () => {
     border: 'none',
     boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
     cursor: 'pointer',
+    border: 'none', 
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', 
+    cursor: 'pointer', 
   };
 
   return (

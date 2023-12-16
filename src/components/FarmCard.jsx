@@ -7,6 +7,7 @@ const FarmCard = ({ title, imageSrc, description}) => {
     margin: '1rem', 
     backgroundColor: '#334B35',
     border: '0',
+    boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1',
 
   };
   const textStyle = {
