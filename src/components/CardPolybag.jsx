@@ -10,9 +10,9 @@ const FarmPage = () => {
       linkTo: '/bawangmerahpg', 
     },
     {
-      imageSrc: './public/panduan/card p2.png',
-      description: 'Menanam Kembang Kol dengan Metode Polybag..',
-      linkTo: '/kembangkol', 
+      imageSrc: './public/panduan/card h3.png',
+      description: 'Menanam Buncis dengan Metode Polybag..',
+      linkTo: '/buncis', 
     },
     {
       imageSrc: './public/panduan/card p3.png',

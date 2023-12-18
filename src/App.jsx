@@ -6,6 +6,8 @@ import Artikel from './pages/Artikel'
 import Detail from './pages/Detail'
 import TentangKami from './pages/TentangKami'
 import DetailKPP from './pages/DetailKPP'
+import Buncispage from './pages/Buncispage'
+import Tomatpage from './pages/Tomatpage'
 import './App.css'
 
 
@@ -19,6 +21,8 @@ const App = () => {
         <Route path="/artikel" element={<Artikel/>} />
         <Route path="/bawangmerah" element={<Detail/>} />
         <Route path="/kacangpjg" element={<DetailKPP/>} />
+        <Route path="/buncis" element={<Buncispage/>} />
+        <Route path="/tomat" element={<Tomatpage/>} />
       </Routes>
     </Router>
   )
