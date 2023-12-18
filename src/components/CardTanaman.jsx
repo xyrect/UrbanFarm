@@ -1,44 +1,56 @@
 import React from 'react';
-import FarmCard from './FarmCard'; 
+import { Link } from 'react-router-dom';
+import FarmCard from './FarmCard';
 
 const FarmPage = () => {
   const farms = [
     {
-      imageSrc: './public/beranda/card h1.png', 
-      description: 'Menanam Bawang dengan metode Hidroponik.',
+      imageSrc: './public/panduan/card h1.png',
+      description: 'Menanam Bawang merah dengan metode Hidroponik',
+      linkTo: '/bawangmerah', 
     },
     {
-      imageSrc: './public/beranda/card h2.png', 
-      description: 'Menanam Cabe Rawit dengan Metode Polybag.',
+      imageSrc: './public/panduan/card h2.png',
+      description: 'Menanam Tomat dengan Metode Polybag',
+      linkTo: '/tomat', 
     },
     {
-      imageSrc: './public/beranda/card h3.png', 
-      description: 'Menanam Buncis dengan Metode Polybag.',
+      imageSrc: './public/panduan/card h3.png',
+      description: 'Menanam Buncis dengan Metode Polybag',
+      linkTo: '/buncis', 
     },
     {
-      imageSrc: './public/panduan/card p3.png', 
-      description: 'Menanam Tomat dengan Metode Polybag.',
+      imageSrc: './public/panduan/card h4.png',
+      description: 'Menanam Kacang Panjang dengan Metode Polybag',
+      linkTo: '/kacangpjg'
     },
-   
   ];
+
+  const handleCardClick = (title) => {
+    console.log(`Card clicked: ${title}`);
+    // Handle click logic if needed
+  };
+
   const containerStyle = {
-    textAlign : 'center',
-    
-  }
+    textAlign: 'center',
+  };
 
   return (
-    <div style={{textAlign:'center'}}>
-      <h3 style={{marginBottom:"2rem"}}>Rekomendasi Tanaman</h3>
-      <h6 style={{marginBottom:"2rem"}}>Tentukan pilihan tanaman anda dan dapatkan informasi panduan tata cara menanamnya</h6>
-      <div style={{ display: 'flex', flexWrap: 'wrap',justifyContent:'center', textAlign:'left'}}>
+    <div style={{ textAlign: 'center', marginTop:'4rem' }}>
+      <h3 style={{ marginBottom: '2rem' , fontWeight:'bold'}}>Rekomendasi Tanaman</h3>
+      <h4 style={{ marginBottom: '2rem' , fontWeight:'500'}}>
+        Tentukan pilihan tanaman anda dan dapatkan informasi panduan tata cara menanamnya
+      </h4>
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '5rem' }}>
         {farms.map((farm, index) => (
-          <FarmCard
-            key={index}
-            title={farm.title}
-            imageSrc={farm.imageSrc}
-            description={farm.description}
-            onClick={() => handleCardClick(farm.title)} 
-          />
+          <Link key={index} to={farm.linkTo || '/'} style={{textDecoration:'none'}}>
+            <FarmCard
+              title={farm.title}
+              imageSrc={farm.imageSrc}
+              description={farm.description}
+              onClick={() => handleCardClick(farm.title)}
+            />
+          </Link>
         ))}
       </div>
     </div>

@@ -6,22 +6,22 @@ const FarmPage = () => {
   const farms = [
     {
       imageSrc: './public/panduan/card p1.png',
-      description: 'Menanam Bawang  dengan metode Polybag.',
+      description: 'Menanam Bawang  dengan metode Polybag',
       linkTo: '/bawangmerahpg', 
     },
     {
       imageSrc: './public/panduan/card h3.png',
-      description: 'Menanam Buncis dengan Metode Polybag..',
+      description: 'Menanam Buncis dengan Metode Polybag',
       linkTo: '/buncis', 
     },
     {
       imageSrc: './public/panduan/card p3.png',
-      description: 'Menanam Tomat dengan Metode Polybag.',
+      description: 'Menanam Tomat dengan Metode Polybag',
       linkTo: '/tomat', 
     },
     {
       imageSrc: './public/panduan/card h4.png',
-      description: 'Menanam Kacang Panjang dengan Metode Polybag.',
+      description: 'Menanam Kacang Panjang dengan Metode Polybag',
       linkTo: '/kacangpjg', 
     },
   ];

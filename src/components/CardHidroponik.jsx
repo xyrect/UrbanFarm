@@ -6,22 +6,22 @@ const FarmPage = () => {
   const farms = [
     {
       imageSrc: './public/panduan/card h1.png',
-      description: 'Menanam Bawang merah dengan metode Hidroponik.',
-      linkTo: '/bawangmerah', // Replace with the actual route
+      description: 'Menanam Bawang merah dengan metode Hidroponik',
+      linkTo: '/bawangmerah', 
     },
     {
       imageSrc: './public/panduan/card h2.png',
-      description: 'Menanam Cabe Rawit dengan Metode Hidroponik..',
-      linkTo: '/caberawit', // Replace with the actual route
+      description: 'Menanam Cabe Rawit dengan Metode Hidroponik',
+      linkTo: '/caberawit', 
     },
     {
       imageSrc: './public/panduan/card h3.png',
-      description: 'Menanam Buncis dengan Metode Hidroponik.',
-      linkTo: '/buncis', // Replace with the actual route
+      description: 'Menanam Buncis dengan Metode Hidroponik',
+      linkTo: '/buncis', 
     },
     {
       imageSrc: './public/panduan/card h4.png',
-      description: 'Menanam Kacang Panjang dengan Metode Hidroponik.',
+      description: 'Menanam Kacang Panjang dengan Metode Hidroponik',
       linkTo: ''
     },
   ];
