@@ -22,7 +22,7 @@ const FarmPage = () => {
     {
       imageSrc: './public/panduan/card h4.png',
       description: 'Menanam Kacang Panjang dengan Metode Hidroponik.',
-      linkTo: '/kacangpanjang', // Replace with the actual route
+      linkTo: ''
     },
   ];
 

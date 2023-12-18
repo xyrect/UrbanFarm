@@ -2,14 +2,14 @@
 
 import React from 'react';
 import ImageGrid from './Imagegrid'; // Adjust the path as needed
+import './detailpanduan.css'
 
 const YourPage = () => {
   const yourImages = [
     "./public/detail/bmerah1.png",
     "./public/detail/bmerah2.png",
     "./public/detail/bmerah3.png",
-    "./public/detail/bmerah4.png",
-    
+    "./public/detail/bmerah4.png", 
   ];
 
   return (
@@ -135,7 +135,7 @@ const YourPage = () => {
                 </ul>
             </div>
 
-            <div className="container-fluid kendali">
+            <div className="container-fluid kendali ml-4">
       <h1>Pengendalian hama pada Hidroponik</h1>
 
   <div className="row">

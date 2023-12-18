@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import CardBar from '../components/Cardbar'
 import CarouselExample from '../components/CardTeam'
+import TeamData from '../components/TeamData'
 
 
 const TentangKami = () => {
@@ -14,7 +15,7 @@ const TentangKami = () => {
         <Navbar />
         <CardBar />
         <SecTentang />
-        <CarouselExample />
+        <TeamData />
         <SecWeb />
         <SecMobile />
         <Footer />

@@ -20,9 +20,9 @@ const FarmPage = () => {
       linkTo: '/tomat', 
     },
     {
-      imageSrc: './public/panduan/card p4.png',
-      description: 'Menanam Mentimun dengan Metode Polybag.',
-      linkTo: '/mentimun', 
+      imageSrc: './public/panduan/card h4.png',
+      description: 'Menanam Kacang Panjang dengan Metode Polybag.',
+      linkTo: '/kacangpjg', 
     },
   ];
 
