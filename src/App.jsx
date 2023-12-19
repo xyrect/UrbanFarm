@@ -8,6 +8,7 @@ import TentangKami from './pages/TentangKami'
 import DetailKPP from './pages/DetailKPP'
 import Buncispage from './pages/Buncispage'
 import Tomatpage from './pages/Tomatpage'
+import BawangMerahPG from './pages/BawangMerahPG'
 import './App.css'
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/panduan" element={<Panduan/>} />
         <Route path="/artikel" element={<Artikel/>} />
         <Route path="/bawangmerah" element={<Detail/>} />
+        <Route path="/bawangmerahpg" element={<BawangMerahPG/>} />
         <Route path="/kacangpjg" element={<DetailKPP/>} />
         <Route path="/buncis" element={<Buncispage/>} />
         <Route path="/tomat" element={<Tomatpage/>} />
