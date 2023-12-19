@@ -24,7 +24,7 @@ const YourPage = () => {
                         <div className="col">
                             <div className="card h-100" style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <div className="no-urut">1</div>
-                                <img src="./public/bmppage/plan1.png" className="card-img-top" alt="step 1" />
+                                <img src="./public/buncis/step1.jpg" className="card-img-top" alt="step 1" />
                                 <div className="card-body">
                                     <p className="card-text">
                                     siapkan polybag tanam berukuran sedang dengan diameter sekitar 25 sentimeter dan tinggi sekitar 30 sentimeter.
@@ -35,7 +35,7 @@ const YourPage = () => {
                         <div className="col">
                             <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
                                 <div className="no-urut">2</div>
-                                <img src="./public/bmppage/plan2.png" className="card-img-top" alt="step 2" />
+                                <img src="./public/buncis/step2.jpg" className="card-img-top" alt="step 2" />
                                 <div className="card-body">
                                     <p className="card-text">
                                     Untuk melakukan budidaya buncis tegak di polybag, maka harus dipersiapkan media tanam yang baik. Yakni tanah yang gembur. Untuk menggemburkan tanah perlu campuran kompos, arang sekam dan kapur pertanian untuk menurunkan tingkat keasaman tanah. <br />
@@ -45,11 +45,11 @@ const YourPage = () => {
                             </div>
                         </div>
                     </div>
-                    <li >Proses penanaman bawang merah</li>
+                    <li >Proses penanaman buncis</li>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col">
                             <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
-                                <img src="./public/detail/hpt-step1.jpg" className="card-img-top" alt="step tanam 1" />
+                                <img src="./public/buncis/benih.jpg" className="card-img-top" alt="step tanam 1" />
                                 <div className="no-urut">1</div>
                                 <div className="card-body">
                                     <p className="card-text">
@@ -60,7 +60,7 @@ const YourPage = () => {
                         </div>
                         <div className="col">
                             <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
-                                <img src="./public/bmppage/step2.png" className="card-img-top" alt="step tanam 2" />
+                                <img src="./public/buncis/step3.jpg" className="card-img-top" alt="step tanam 2" />
                                 <div className="no-urut">2</div>
                                 <div className="card-body">
                                     <p className="card-text">
@@ -71,7 +71,7 @@ const YourPage = () => {
                         </div>
                         <div className="col">
                             <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
-                                <img src="./public/bmppage/step3.png" className="card-img-top" alt="step tanam 3" />
+                                <img src="./public/buncis/step4.jpg" className="card-img-top" alt="step tanam 3" />
                                 <div className="no-urut">3</div>
                                 <div className="card-body">
                                     <p className="card-text">
@@ -82,7 +82,7 @@ const YourPage = () => {
                         </div>
                         <div className="col">
                             <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
-                                <img src="./public/bmppage/step4.png" className="card-img-top" alt="step tanam 4" />
+                                <img src="./public/buncis/step5.jpg" className="card-img-top" alt="step tanam 4" />
                                 <div className="no-urut">4</div>
                                 <div className="card-body">
                                     <p className="card-text">
@@ -93,7 +93,7 @@ const YourPage = () => {
                         </div>
                         <div className="col">
                             <div className="card h-100"style={{boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1'}}>
-                                <img src="./public/bmppage/step4.png" className="card-img-top" alt="step tanam 4" />
+                                <img src="./public/buncis/step6.jpg" className="card-img-top" alt="step tanam 4" />
                                 <div className="no-urut">4</div>
                                 <div className="card-body">
                                     <p className="card-text">
