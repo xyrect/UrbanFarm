@@ -2,7 +2,7 @@ import React from 'react';
 import CarouselExample from './CardTeam'
 
 const teamData = [
-  { name: 'Putra Ganda Dewata', role: 'PM/Hacker/Hipster', image: './public/tentang kami/co1.jpg' },
+  { name: 'Putra Ganda Dewata', role: 'PM/Hacker/Hipster', image: './public/tentang kami/putra.jpg' },
   { name: 'Dewangga Nanda Arjuna', role: 'Scrum Master/Hacker', image: './public/tentang kami/dewa1.jpg' },
   { name: 'Novia Indah Ramadhani', role: 'Hipster', image: './public/tentang kami/nov.jpg' },
   { name: 'Sugini Injani', role: 'Hipster', image: './public/tentang kami/g1.jpg' },

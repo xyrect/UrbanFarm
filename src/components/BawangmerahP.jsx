@@ -250,7 +250,7 @@ const YourPage = () => {
                                     <h4 className="card-title">Polybag</h4>
                                     <img className="card-img-top" src="./public/bmppage/alat1.png" alt="Pipa" />
                                     <hr />
-                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
+                                    <a href="https://www.tokopedia.com/kangenshopping/polybag-polibag-polibek-kiloan-1kg-tebal-semua-ukuran15x10-20x20-30x30-50x50?extParam=ivf%3Dfalse%26src%3Dsearch " className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
@@ -261,7 +261,7 @@ const YourPage = () => {
                                     <h4 className="card-title">Pupuk TSP</h4>
                                     <img className="card-img-top" src="./public/bmppage/alat2.png" alt="Netpot" />
                                     <hr />
-                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
+                                    <a href=" https://www.tokopedia.com/swalayanbekasi/pupuk-tsp-sp36-kemasan-ecer-1kg-grosir-pupuk-tsp-sp36?extParam=ivf%3Dfalse%26src%3Dsearch " className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
@@ -272,7 +272,7 @@ const YourPage = () => {
                                     <h4 className="card-title">Pupuk NPK</h4>
                                     <img className="card-img-top" src="./public/bmppage/alat3.png" alt="Pupuk" />
                                     <hr />
-                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
+                                    <a href="https://www.tokopedia.com/hippo-grow-indonesia/pupuk-npk-16-16-16-pak-tani-kemasan-pabrik-1kg?extParam=ivf%3Dfalse%26src%3Dsearch " className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
@@ -283,7 +283,7 @@ const YourPage = () => {
                                     <h4 className="card-title">Pupuk Kandang</h4>
                                     <img className="card-img-top" src="./public/bmppage/alat4.png" alt="daun" />
                                     <hr />
-                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
+                                    <a href="https://www.tokopedia.com/pilarpot/pupuk-kandang-sapi-hijau-organik-halus-dan-steril-sablon-hijau?extParam=ivf%3Dfalse%26src%3Dsearch " className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
@@ -294,7 +294,7 @@ const YourPage = () => {
                                     <h4 className="card-title">Sekam</h4>
                                     <img className="card-img-top" src="./public/bmppage/alat5.png" alt="daun" />
                                     <hr />
-                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
+                                    <a href="https://www.tokopedia.com/milkykushop/media-tanam-sekam-mentah-organik-via-gosend-grab?extParam=ivf%3Dfalse&src=topads " className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
@@ -305,14 +305,13 @@ const YourPage = () => {
                                     <h4 className="card-title">Arang Kayu</h4>
                                     <img className="card-img-top" src="./public/bmppage/alat6.png" alt="daun" />
                                     <hr />
-                                    <a href="#" className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
+                                    <a href="https://www.tokopedia.com/workplantofficial/arang-kayu-cacah-kecil-media-tanam-tanaman-hias-anggrek-premium?extParam=ivf%3Dfalse&src=topads " className="btn btn-default"style={{color:'#fff'}}>Beli online</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-   
     </div>
     
   );

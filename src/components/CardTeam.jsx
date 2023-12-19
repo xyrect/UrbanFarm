@@ -44,7 +44,7 @@ const CarouselExample = ({ teamData }) => {
 
   return (
     <Container className="mt-5">
-      <h3 style={{ textAlign: 'center' }}>Our Team</h3>
+      <h3 style={{ textAlign: 'center' }}>Tim Kami</h3>
       <Carousel
         responsive={responsive}
         itemClass={distance}
